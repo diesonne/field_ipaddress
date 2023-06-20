@@ -1,0 +1,14 @@
+{
+    "name": "drupal/field_ipaddress",
+    "type": "drupal-module",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "extra": {
+        "drush": {
+            "services": {
+                "drush.services.yml": "^9"
+            }
+        }
+    }
+}
